@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    background: url(../images/background_header_02.jpg) #555556 center center no-repeat;
+    background-size: cover;
+    /*background: url(../images/background_header.jpg) #555556 center center no-repeat;
+    background-size: cover;
+    position: relative;*/
+}
+/*header::after {
+    content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #555556;
+	opacity: 0.7;
+}*/
+/* Пыталась добавить прозрачный фон поверх фоновой картинки  (как в макете) не очень получилось. Оставила, хочу разоюраться с этим позже */
+.top-menu {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.menu-list {
+    list-style: none;
+}
+.menu-items {
+    display: inline;
+}
+.items-link {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 0.7em;
+    text-decoration: none; 
+}
+.items-link:hover {
+    color: #c7b299;
+}
